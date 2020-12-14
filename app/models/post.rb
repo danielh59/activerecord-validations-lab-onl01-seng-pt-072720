@@ -7,6 +7,6 @@ class Post < ActiveRecord::Base
   b = "Secret"
   c =  "Top [number]"
   d =  "Guess"
-  # validates :title, inclusion: { in: %w(a b c d),
-  #  message: "Not good enough" }
+  validates :title, inclusion: { in: %w(a b c d),
+   message: "Not good enough" }
 end
