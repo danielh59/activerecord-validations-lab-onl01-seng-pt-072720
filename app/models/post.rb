@@ -1,8 +1,8 @@
 class Post < ActiveRecord::Base
-  a = "Won't Believe" 
+  a = "Won't Believe"
   b = "Secret"
-  c =  "Top [number]" 
-  d =  "Guess" 
+  c =  "Top [number]"
+  d =  "Guess"
   validates :title, presence: true
   validates :count, length: { minimum: 250 }
   validates :summary, length: { maximum: 250 }
