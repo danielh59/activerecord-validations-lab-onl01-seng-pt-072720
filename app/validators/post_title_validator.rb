@@ -1,6 +1,6 @@
-class PostTitleValidator
-  def validate(record)
-    unless.r
-  end
-
-end
+# class PostTitleValidator
+#   def validate(record)
+#     unless.rr
+#   end
+#
+# end
