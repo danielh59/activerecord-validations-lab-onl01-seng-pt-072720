@@ -7,5 +7,5 @@ class Post < ActiveRecord::Base
   validates :count, length: { minimum: 250 }
   validates :summary, length: { maximum: 250 }
   validates :title, inclusion: { in: %w(a b c d),
-   message: "%{value} is not a valid size" }
+   message: "Not good enough" }
 end
